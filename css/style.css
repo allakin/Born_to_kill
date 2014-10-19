@@ -182,87 +182,59 @@ header.main {
   background: url("../img/bg-container.jpg") top center no-repeat;
   height: 1151px;
 }
-.content-wrapp .col-xs-6:before, .content-wrapp .col-xs-6:after {
-  content: " ";
-  display: table;
-}
-.content-wrapp .col-xs-6:after {
-  clear: both;
-}
-.content-wrapp ul {
+.content-wrapp .left-sidebar {
   margin-top: 47px;
   list-style-type: none;
   margin-left: -20px;
 }
-.content-wrapp ul a {
+.content-wrapp .left-sidebar a {
   font-size: 10px;
   text-transform: uppercase;
   color: #76759f;
   text-decoration: none;
   padding: 11px 0px 11px 0px;
 }
-.content-wrapp ul a:hover {
+.content-wrapp .left-sidebar a:hover {
   color: #9896cc;
 }
-.content-wrapp ul a:active {
+.content-wrapp .left-sidebar a:active {
   color: #b1affd;
 }
-.content-wrapp h2 {
+
+.post {
+  border-bottom: solid 1px #222130;
+  padding-bottom: 27px;
+}
+.post-header h2 {
   font-size: 26px;
   font-family: "Arial", sans-serif;
   text-align: center;
   color: #7d538e;
   margin: 10px 0px;
 }
-.content-wrapp .text {
-  margin-top: 26px;
-}
-.content-wrapp .first-post {
-  text-align: center;
-}
-.content-wrapp p {
+.post-content li {
   font-size: 11px;
   font-family: "Arial", sans-serif;
   color: #7d538e;
 }
-.content-wrapp h3 {
+.post-footer span {
   font-size: 10px;
   color: #ac89ba;
   font-family: "Arial Bold", sans-serif;
-  float: left;
-  margin: 6px;
 }
-.content-wrapp h3 a {
+.post-footer li:after {
+  content: '|';
+  margin-left: 5px;
+}
+.post-footer li:last-child:after {
+  display: none;
+}
+.post-footer a {
   font-size: 10px;
   font-family: "Arial", sans-serif;
   color: #7d538e;
   text-decoration: none;
-  margin-left: 4px;
 }
-.content-wrapp h3 a:hover {
+.post-footer a:hover {
   color: #ac89ba;
-}
-.content-wrapp b {
-  font-size: 10px;
-  font-family: "Arial Bold", sans-serif;
-  color: #7d538e;
-  margin: 0px 11px;
-}
-.content-wrapp a {
-  text-decoration: none;
-  font-size: 10px;
-  font-family: "Arial Bold", sans-serif;
-  color: #7d538e;
-}
-.content-wrapp a span {
-  color: #bd72dc;
-}
-.content-wrapp a:hover {
-  color: #ac89ba;
-}
-.content-wrapp .border-line {
-  width: 464px;
-  height: 1px;
-  background: #222130;
-  margin: 37px 0px;
 }
