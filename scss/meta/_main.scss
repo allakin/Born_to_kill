@@ -1,0 +1,63 @@
+header.main{
+  background: url("../img/bg-header.jpg")top center no-repeat;
+  height: 450px;
+}
+.menu-wrap{
+  background: url("../img/bg-menu.jpg")top center no-repeat;
+  height: 150px;
+  .registation{
+    font-size: 13px;
+    font-family: $Times;
+    color: $white;
+    text-transform: uppercase;
+    text-align: right;
+    display: table;
+    text-decoration: none;
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+    &:hover{
+      color: #5fc2f5;
+    }
+    &:active{
+      color: #4f3a6f;
+    }
+  }
+  .rules{
+    font-size: 13px;
+    font-family: $Times;
+    color: $white;
+    text-transform: uppercase;
+    text-align: left;
+    display: table;
+    text-decoration: none;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    &:hover{
+      color: #5fc2f5;
+    }
+    &:active{
+      color: #4f3a6f;
+    }
+  }
+  button {
+    background: url("../img/sp-bg-button.png");
+    width: 115px;
+    height: 115px;
+    margin-left: 34px;
+    @include border-radius(100%);
+    font-size: 12px;
+    font-family: $Times;
+    color: $white;
+    text-transform: uppercase;
+    border: none;
+    &:hover{
+      color: $white;
+      background-position: 0 -115px;
+    }
+    &:active{
+      background-position: 0 0;
+    }
+  }
+}

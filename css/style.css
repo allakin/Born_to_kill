@@ -5,3 +5,84 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  background: #02000B;
+}
+
+a:active,
+a:focus,
+button:active,
+button:focus,
+input:active,
+input:focus,
+textarea:focus,
+textarea:active {
+  outline: none !important;
+}
+
+header.main {
+  background: url("../img/bg-header.jpg") top center no-repeat;
+  height: 450px;
+}
+
+.menu-wrap {
+  background: url("../img/bg-menu.jpg") top center no-repeat;
+  height: 150px;
+}
+.menu-wrap .registation {
+  font-size: 13px;
+  font-family: "Times New Roman", serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: right;
+  display: table;
+  text-decoration: none;
+  float: right;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.menu-wrap .registation:hover {
+  color: #5fc2f5;
+}
+.menu-wrap .registation:active {
+  color: #4f3a6f;
+}
+.menu-wrap .rules {
+  font-size: 13px;
+  font-family: "Times New Roman", serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  display: table;
+  text-decoration: none;
+  float: left;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.menu-wrap .rules:hover {
+  color: #5fc2f5;
+}
+.menu-wrap .rules:active {
+  color: #4f3a6f;
+}
+.menu-wrap button {
+  background: url("../img/sp-bg-button.png");
+  width: 115px;
+  height: 115px;
+  margin-left: 34px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 12px;
+  font-family: "Times New Roman", serif;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+.menu-wrap button:hover {
+  color: #fff;
+  background-position: 0 -115px;
+}
+.menu-wrap button:active {
+  background-position: 0 0;
+}
