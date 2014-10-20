@@ -248,7 +248,7 @@ header.main {
   display: block;
   width: 55px;
   height: 53px;
-  margin-left: 125px;
+  margin-left: 80px;
   margin-top: 126px;
 }
 .facebook a:hover {
@@ -260,7 +260,7 @@ header.main {
   display: block;
   width: 55px;
   height: 53px;
-  margin-left: 125px;
+  margin-left: 80px;
   background-position: -55px 0;
 }
 .twitter a:hover {
@@ -272,7 +272,7 @@ header.main {
   display: block;
   width: 55px;
   height: 53px;
-  margin-left: 125px;
+  margin-left: 80px;
   background-position: -110px 0;
 }
 .vk a:hover {
