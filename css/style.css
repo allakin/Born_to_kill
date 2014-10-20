@@ -204,6 +204,10 @@ header.main {
 .post {
   border-bottom: solid 1px #222130;
   padding-bottom: 27px;
+  margin-bottom: 30px;
+}
+.post:last-child {
+  margin-bottom: 0px;
 }
 .post-header h2 {
   font-size: 26px;
@@ -237,4 +241,40 @@ header.main {
 }
 .post-footer a:hover {
   color: #ac89ba;
+}
+
+.facebook a {
+  background: url("../img/sp-icon-social.png");
+  display: block;
+  width: 55px;
+  height: 53px;
+  margin-left: 125px;
+  margin-top: 126px;
+}
+.facebook a:hover {
+  background-position: 0 -53px;
+}
+
+.twitter a {
+  background: url("../img/sp-icon-social.png");
+  display: block;
+  width: 55px;
+  height: 53px;
+  margin-left: 125px;
+  background-position: -55px 0;
+}
+.twitter a:hover {
+  background-position: -55px -53px;
+}
+
+.vk a {
+  background: url("../img/sp-icon-social.png");
+  display: block;
+  width: 55px;
+  height: 53px;
+  margin-left: 125px;
+  background-position: -110px 0;
+}
+.vk a:hover {
+  background-position: -110px -53px;
 }
