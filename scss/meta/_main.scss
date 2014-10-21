@@ -82,6 +82,45 @@ header.main{
       }
     }
   }
+  .news-one,
+  .news-second,
+  .news-three{
+    position: relative;
+    width: 200px;
+    list-style-type: none;
+    padding: 4px 0px 10px 10px;
+    @include clearfix();
+    &:hover{
+      background: rgba(107, 74, 121, 0.5);
+    }
+    &:hover .icon-select{
+      background: url("../img/icon-select.png")no-repeat;
+      display: block;
+      width: 9px;
+      height: 11px;
+      position: absolute;
+      right: 10px;
+      margin-top: 10%;
+    }
+    li{
+      font-size: 11px;
+      font-family: $Times;
+      color: $white;
+      float: left;
+      &:after{
+        content: '|';
+        margin: 0px 4px;
+      }
+      &:last-child{
+        &:after{
+          display: none;
+        }
+      }
+    }
+  }
+  .news-three{
+    margin-top: 102px;
+  }
 }
 .post{
   border-bottom: solid 1px #222130;
@@ -146,7 +185,7 @@ header.main{
     width: 55px;
     height: 53px;
     margin-left: 80px;
-    margin-top: 126px;
+    margin-top: 80px;
     &:hover{
       background-position: 0 -53px;
     }
@@ -178,4 +217,53 @@ header.main{
       background-position: -110px -53px;
     }
   }
+}
+.status_servera{
+  margin-left: 36px;
+  margin-top: 80px;
+  h3{
+    font-size: 12px;
+    font-family: $Bold;
+    color: $white;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 11px;
+  }
+  ul{
+    @include clearfix();
+  }
+  li{
+    font-size: 12px;
+    font-family: $Arial;
+    text-transform: uppercase;
+    color: $white;
+    list-style-type: none;
+    left: 0;
+    float: left;
+    margin-right: 8px;
+    &:last-child{
+      margin-right: 0px;
+    }
+  }
+}
+h4{
+  margin-top: 310px;
+  font-size: 12px;
+  font-family: $Bold;
+  color: $white;
+  text-transform: uppercase;
+  text-align: right;
+}
+p{
+  font-size: 12px;
+  font-family: $Arial;
+  text-align: right;
+  color: $white;
+  margin-right: 17px;
+}
+b{
+  font-size: 20px;
+  color: gold;
+  font-family: $Bold;
+  margin-left: 146px;
 }
