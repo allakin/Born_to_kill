@@ -63,7 +63,6 @@ header.main{
 }
 .content-wrapp{
   background: url("../img/bg-container.jpg")top center no-repeat;
-  height: 1151px;
   .left-sidebar{
     margin-top: 47px;
     list-style-type: none;
@@ -88,7 +87,9 @@ header.main{
     position: relative;
     width: 200px;
     list-style-type: none;
-    padding: 4px 0px 10px 10px;
+    padding: 10px 15px 10px 10px;
+    border-bottom: solid 1px #222130;
+    margin-bottom: 0px;
     @include clearfix();
     &:hover{
       background: rgba(107, 74, 121, 0.5);
@@ -100,12 +101,18 @@ header.main{
       height: 11px;
       position: absolute;
       right: 10px;
-      margin-top: 10%;
+      top: 50%;
+      margin-top: -6px;
+    }
+    .news-title,
+    .autor,
+    span{
+      color: #917576;
     }
     li{
       font-size: 11px;
       font-family: $Times;
-      color: $white;
+      color: #8f8d9e;
       float: left;
       &:after{
         content: '|';
@@ -266,4 +273,22 @@ b{
   color: gold;
   font-family: $Bold;
   margin-left: 146px;
+}
+.footer-wrapp{
+  background: url("../img/bg-footer.jpg")top center no-repeat;
+  padding: 106px 0px 68px;
+  .text-footer{
+    width: 70%;
+    margin: 0 auto;
+  }
+  p{
+    text-align: center;
+    font-size: 13px;
+    font-family: $Arial;
+    text-transform: uppercase;
+    color: #726c8c;
+    border-bottom: solid 1px #222130;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+  }
 }
